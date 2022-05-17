@@ -1,0 +1,21 @@
+{
+  "name": "nightwatch-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google.js",
+  "scripts": {
+    "test": "nightwatch",
+    "test:cucumber": "cucumber-js --require cucumber.conf.js --require tests --format node_modules/cucumber-pretty",
+    "e2e-test": "cucumber-js --require cucumber.conf.js --require step-definitions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^101.0.0",
+    "cucumber": "^6.0.7",
+    "cucumber-pretty": "^6.0.1",
+    "nightwatch": "^1.7.13",
+    "nightwatch-api": "^3.0.2"
+  }
+}
